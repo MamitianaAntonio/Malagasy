@@ -1,0 +1,90 @@
+section {
+  width: 100%;
+  max-width: 1200px;
+  padding: 20px;
+  background-color: #f5f5f0; /* Light beige background */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 40px;
+}
+
+/* Premier conteneur (texte à droite, image à gauche) */
+.container {
+  display: flex;
+  align-items: center;
+  border: 1px solid #d2b48c; /* Soft brown border */
+}
+
+.image-block img {
+  width: 300px;
+  height: auto;
+  object-fit: cover;
+}
+
+.text-block {
+  margin-left: 20px;
+  width: 100%;
+  color: #5c4033; /* Dark brown text */
+}
+
+/* Second conteneur (texte à gauche, image à droite) */
+.container-inverse {
+  display: flex;
+  align-items: center;
+  border: 1px solid #d2b48c; /* Soft brown border */
+}
+
+.text-block-inverse {
+  margin-right: 20px;
+  width: 100%;
+  color: #5c4033; /* Dark brown text */
+}
+
+.image-block-inverse img {
+  width: 300px;
+  height: auto;
+  object-fit: cover;
+}
+
+/* Troisième section basique avec le même style */
+.container-basic {
+  border: 1px solid #d2b48c; /* Soft brown border */
+  background-color: #f5f5f0; /* Light beige background */
+}
+
+.basic-content {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #5c4033; /* Dark brown text */
+}
+
+/* Style pour le formulaire de recherche */
+#search-form {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+#search-input {
+  flex: 1;
+  padding: 10px 40px;
+  border: 1px solid #d2b48c; /* Soft brown border */
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: #f5f5f0; /* Light beige background */
+  color: #5c4033; /* Dark brown text */
+}
+
+#btn-search {
+  padding: 0px 5px;
+  border: none;
+  border-radius: 4px;
+  background-color: #a0522d; /* Chocolate brown button */
+  color: #fff;
+  font-size: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#btn-search:hover {
+  background-color: #8b4513; /* Darker chocolate brown on hover */
+}

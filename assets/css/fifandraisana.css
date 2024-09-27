@@ -1,0 +1,194 @@
+/* Contact Page Styles */
+#main {
+  padding: 2em;
+}
+
+#contact {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 2em;
+  margin-bottom: 0.5em;
+  color: #5c4033; /* Dark brown */
+}
+
+.contact-info,
+.contact-form,
+.social-media {
+  margin-bottom: 2em;
+}
+
+.contact-info h3,
+.contact-form h3,
+.social-media h3 {
+  font-size: 1.5em;
+  margin-bottom: 1em;
+  color: #8b5e3c; /* Medium brown */
+}
+
+.contact-info p {
+  margin: 0.5em 0;
+  color: #5c4033; /* Dark brown */
+}
+
+.contact-info a {
+  color: #8b4513; /* Soft brown */
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
+
+.contact-form {
+  background: #f5f5f0; /* Light beige background */
+  padding: 1.5em;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.contact-form label {
+  display: block;
+  margin-top: 1em;
+  color: #5c4033; /* Dark brown */
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 0.5em;
+  margin-top: 0.5em;
+  border: 1px solid #d2b48c; /* Soft brown border */
+  border-radius: 4px;
+}
+
+.contact-form #btn-envoyer {
+  display: inline-block;
+  padding: 0.75em 1.5em;
+  background: #8b4513; /* Chocolate brown button */
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 2em;
+}
+
+.contact-form #btn-envoyer:hover {
+  background: #5c4033; /* Dark brown on hover */
+}
+
+.social-media ul {
+  list-style: none;
+  padding: 0;
+}
+
+.social-media li {
+  display: inline;
+  margin-right: 1em;
+}
+
+.social-media a {
+  text-decoration: none;
+  color: #8b4513; /* Soft brown */
+  font-size: 1.2em;
+}
+
+social-media a:hover {
+  color: #5c4033; /* Darker brown on hover */
+}
+
+#confirmation-message {
+  padding: 1em;
+  background-color: #d4edda; /* Soft green */
+  color: #51ce6e;
+  border: 1px solid #c3e6cb;
+  border-radius: 4px;
+  margin-bottom: 1em;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  #contact {
+      padding: 1em;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+      font-size: 1em;
+  }
+
+  .contact-form button {
+      width: 100%;
+      font-size: 1em;
+  }
+
+  .social-media ul {
+      text-align: center;
+      padding: 0;
+  }
+
+  .social-media li {
+      display: block;
+      margin-bottom: 0.5em;
+  }
+}
+
+@media (max-width: 480px) {
+  h2 {
+      font-size: 1.5em;
+  }
+
+  .contact-info h3,
+  .contact-form h3,
+  .social-media h3 {
+      font-size: 1.2em;
+  }
+
+  .contact-info p,
+  .contact-form label {
+      font-size: 0.9em;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+      font-size: 0.9em;
+  }
+
+  .contact-form button {
+      font-size: 0.9em;
+  }
+}
+
+/* Style pour le formulaire de recherche */
+#search-form {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+#search-input {
+  flex: 1;
+  padding: 10px 40px;
+  border: 1px solid #d2b48c; /* Soft brown border */
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: #f5f5f0; /* Light beige */
+  color: #5c4033; /* Dark brown */
+}
+
+#btn-search {
+  padding: 0px 5px;
+  border: none;
+  border-radius: 4px;
+  background-color: #8b4513; /* Chocolate brown button */
+  color: #fff;
+  font-size: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#btn-search:hover {
+  background-color: #5c4033; /* Dark brown on hover */
+}
